@@ -1,0 +1,13 @@
+import numpy as np
+a=np.array([[1,2,3],[4,5,6]],ndmin=2)
+print(a)
+print(a.ndim)
+print(a.transpose())
+print(a.tobytes())
+print(a.swapaxes(1,1))
+print(a.sum())
+print(a.view())
+print(a.var())
+print(a.trace())
+print(a.tolist())
+print(a.take(1,1))

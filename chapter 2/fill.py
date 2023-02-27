@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.geometry("400x400")
+lbl1=Label(root,text="label 1",bg="green")
+lbl2=Label(root,text="label 2",bg="white")
+lbl3=Label(root,text="label 3",bg="blue")
+lbl1.pack(side=LEFT,fill=BOTH,expand=YES)
+lbl2.pack(side=LEFT,fill=BOTH,expand=YES)
+lbl3.pack(side=LEFT,fill=BOTH,expand=YES)
+root.mainloop()

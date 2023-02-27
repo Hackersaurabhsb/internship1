@@ -1,0 +1,11 @@
+names=['saurabh','akash','chandu']
+ages=[24,23,12]
+salary=[1212,12131,21212]
+z=zip(names,ages,salary)
+print(z)
+l=list(z)
+print(l)
+n,a,s=zip(*l)
+print(n)
+print(a)
+print(s)
